@@ -5,6 +5,7 @@ const blue = document.querySelector('.blue');
 const black = document.querySelector('.black');
 const orange = document.querySelector('.orange');
 const yellow = document.querySelector('.yellow');
+const violate = document.querySelector('.violate');
 const defaultButton  = document.querySelector('.default');
 
 let newHeading = document.createElement('h1');
@@ -50,6 +51,10 @@ orange.addEventListener('click',()=>{
 yellow.addEventListener('click',()=>{
     remove();
     ChangeColor('yellow',`You clicked the "yellow" button`);
+});
+violate.addEventListener('click',()=>{
+    remove();
+    ChangeColor('violet',`You clicked the "violate" button`);
 });
 defaultButton .addEventListener('click',()=>{
     remove();
